@@ -6,8 +6,8 @@ import pytest
 
 from api.object_endpoint import Object
 from api.object_schemas import create_object_response_schema
-from helpersa.response_helpers import assert_status_code_equals, assert_data_equals, validate_with_json_schema
-from helpersa.test_data_helper import get_valid_object
+from helpers.response_helpers import assert_status_code_equals, assert_data_equals, validate_with_json_schema
+from helpers.test_data_helper import get_valid_object
 
 
 @allure.feature('object')
